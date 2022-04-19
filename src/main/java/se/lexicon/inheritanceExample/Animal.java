@@ -1,6 +1,7 @@
 package se.lexicon.inheritanceExample;
 
-public class Animal {
+// abstract classes can never be instantiated
+public abstract class Animal {
 
   private String name;
   private double weight;
@@ -13,9 +14,7 @@ public class Animal {
     this.weight = weight;
   }
 
-  public void eat(){
-    System.out.println("Default Eating Behavior for Animal");
-  }
+  public abstract void eat();
 
   public String getName() {
     return name;

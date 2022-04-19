@@ -1,6 +1,7 @@
 package se.lexicon;
 
 
+import se.lexicon.inheritanceExample.Animal;
 import se.lexicon.inheritanceExample.Dog;
 
 public class App
@@ -19,5 +20,8 @@ public class App
         koko.eat();
 
         System.out.println(koko);
+
+
+
     }
 }
